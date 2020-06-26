@@ -1,18 +1,156 @@
 [
   {
-    "title": "What Is The Element Thats Not Exists in HTML5 Semantics",
-    "answer_1": "<article>",
-    "answer_2": "<section>",
-    "answer_3": "<blockquote>",
-    "answer_4": "<aside>",
-    "right_answer": "<blockquote>"
+    "title": "If we want define style for an unique element, then which css selector will we use ?",
+    "answer_1": "Id",
+    "answer_2": "text",
+    "answer_3": "class",
+    "answer_4": "name",
+    "right_answer": "Id"
   },
   {
-    "title": "In HTML Can We Use This Way To Add Attributes",
-    "answer_1": "<div class='class-name'>",
-    "answer_2": "<div class=class-name>",
-    "answer_3": "<div class=\"class-name\">",
-    "answer_4": "All Is Right",
-    "right_answer": "All Is Right"
+    "title": "If we don't want to allow a floating div to the left side of an element, which css property will we use ?",
+    "answer_1": "margin",
+    "answer_2": "clear",
+    "answer_3": "float",
+    "answer_4": "padding",
+    "right_answer": "clear"
+  },
+  {
+    "title": "Suppose we want to arragnge five nos. of DIVs so that DIV4 is placed above DIV1. Now, which css property will we use to control the order of stack?",
+    "answer_1": "d-index",
+    "answer_2": "s-index",
+    "answer_3": "x-index",
+    "answer_4": "z-index",
+    "right_answer": "z-index"
+  },
+  {
+    "title": "Can we align a Block element by setting the left and right margins ?",
+    "answer_1": "Yes, we can",
+    "answer_2": "Not Possible",
+    "right_answer": "Not Possible"
+  },
+  {
+    "title": "If we want to wrap a block of text around an image, which css property will we use ?",
+    "answer_1": "wrap",
+    "answer_2": "push",
+    "answer_3": "float",
+    "answer_4": "align",
+    "right_answer": "float"
+  },
+  {
+    "title": "Can we define the text direction via css property ?",
+    "answer_1": "Yes, we can",
+    "answer_2": "No, we can't",
+    "right_answer": "Yes, we can"
+  },
+  {
+    "title": "Is it possible to declare font-weight, font-face & font-size by using ONLY ONE css propery ?",
+    "answer_1": "Yes, it's possible",
+    "answer_2": "No, not possible",
+    "right_answer": "Yes, it's possible"
+  },
+  {
+    "title": "If we want to show an Arrow as cursor, then which value we will use ?",
+    "answer_1": "pointer",
+    "answer_2": "default",
+    "answer_3": "arrow",
+    "answer_4": "arr",
+    "right_answer": "default"
+  },
+  {
+    "title": "If we want to use a nice looking green dotted border around an image, which css property will we use?",
+    "answer_1": "border-color",
+    "answer_2": "border-decoration",
+    "answer_3": "border-style",
+    "answer_4": "border-line",
+    "right_answer": "border-style"
+  },
+  {
+    "title": "Which of the following properties will we use to display border around a cell without any content ?",
+    "answer_1": "empty-cell",
+    "answer_2": "blank-cell",
+    "answer_3": "noncontent-cell",
+    "answer_4": "void-cell",
+    "right_answer": "empty-cell"
+  },
+  {
+    "title": "What should be the table width, so that the width of a table adjust to the current width of the browser window?",
+    "answer_1": "640 pixels",
+    "answer_2": "100%",
+    "answer_3": "full-screen",
+    "answer_4": "1024 px",
+    "right_answer": "100%"
+  },
+  {
+    "title": "Which element is used in the <HEAD> section on an HTML / XHTMLpage, if we want to use an external style sheet file to decorate the page ?",
+    "answer_1": "<src>",
+    "answer_2": "<link>",
+    "answer_3": "<style>",
+    "answer_4": "<css>",
+    "right_answer": "<link>"
+  },
+  {
+    "title": "Which attribute can be added to many HTML / XHTML elements to identify them as a member of a specific group ?",
+    "answer_1": "Id",
+    "answer_2": "div",
+    "answer_3": "class",
+    "answer_4": "span",
+    "right_answer": "class"
+  },
+  {
+    "title": "When we write <img src=\"img.png\">, what \"img.png\" inside double quote implies?",
+    "answer_1": "element",
+    "answer_2": "attribute",
+    "answer_3": "value",
+    "answer_4": "operator",
+    "right_answer": "value"
+  },
+  {
+    "title": "How can we write comment along with CSS code ?",
+    "answer_1": "/* a comment */",
+    "answer_2": "// a comment //",
+    "answer_3": "/ a comment /",
+    "answer_4": "<' a comment'>",
+    "right_answer": "/* a comment */"
+  },
+  {
+    "title": "Which css property you will use if you want to add some margin between a DIV's border and its inner text ?",
+    "answer_1": "spacing",
+    "answer_2": "margin",
+    "answer_3": "padding",
+    "answer_4": "inner-margin",
+    "right_answer": "padding"
+  },
+  {
+    "title": "Which CSS property is used to control the text size of an element ?",
+    "answer_1": "font-style",
+    "answer_2": "text-size",
+    "answer_3": "font-size",
+    "answer_4": "text-style",
+    "right_answer": "font-size"
+  },
+  {
+    "title": "The default value of \"position\" attribute is _________.",
+    "answer_1": "fixed",
+    "answer_2": "absolute",
+    "answer_3": "inherit",
+    "answer_4": "relative",
+    "right_answer": "relative"
+  },
+  {
+    "title": "How will you make all paragraph elements 'RED' in color ?",
+    "answer_1": "p.all {color: red;}",
+    "answer_2": "p.all {color: #990000;}",
+    "answer_3": "all.p {color: #998877;}",
+    "answer_4": "p {color: red;}",
+    "right_answer": "p {color: red;}"
+  },
+  {
+    "title": "By default Hyperlinks are displayed with an underline. How do you remove the underline from all hyperlinks by using CSS code ?",
+    "answer_1": "a {text: no-underline;}",
+    "answer_2": "a {text-decoration:none;}",
+    "answer_3": "a {text-style: no-underline;}",
+    "answer_4": "a {text-decoration: no-underline;}",
+    "right_answer": "a {text-decoration:none;}"
   }
 ]

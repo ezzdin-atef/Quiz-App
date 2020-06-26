@@ -70,5 +70,236 @@
     "answer_3": "<div class=\"class-name\">",
     "answer_4": "All Is Right",
     "right_answer": "All Is Right"
+  },
+  {
+    "title": "What does HTML stand for?",
+    "answer_1": "Hyperlinks and Text Markup Language",
+    "answer_2": "Home Tool Markup Language",
+    "answer_3": "Hyper Text Markup Language",
+    "right_answer": "Hyper Text Markup Language"
+  },
+  {
+    "title": "Who is making the Web standards?",
+    "answer_1": "Mozilla",
+    "answer_2": "Microsoft",
+    "answer_3": "The World Wide Web Consortium",
+    "right_answer": "The World Wide Web Consortium"
+  },
+  {
+    "title": "Choose the correct HTML tag for the largest heading",
+    "answer_1": "<h6>",
+    "answer_2": "<heading>",
+    "answer_3": "<head>",
+    "answer_4": "<h1>",
+    "right_answer": "<h1>"
+  },
+  {
+    "title": "What is the difference between XML and HTML?",
+    "answer_1": "HTML is used for exchanging data, XML is not.",
+    "answer_2": "XML is used for exchanging data, HTML is not.",
+    "answer_3": "HTML can have user defined tags, XML cannot",
+    "right_answer": "XML is used for exchanging data, HTML is not."
+  },
+  {
+    "title": "What is the correct HTML tag for inserting a line break?",
+    "answer_1": "<br />",
+    "answer_2": "<break />",
+    "answer_3": "<lb />",
+    "right_answer": "<br />"
+  },
+  {
+    "title": "Can a data cell contain images?",
+    "answer_1": "Yes",
+    "answer_2": "No",
+    "right_answer": "Yes"
+  },
+  {
+    "title": "How do I add scrolling text to my page?",
+    "answer_1": "<scroll>",
+    "answer_2": "<marquee>",
+    "answer_3": "<ciruler>",
+    "right_answer": "<marquee>"
+  },
+  {
+    "title": "What is the preferred way for adding a background color in HTML?",
+    "answer_1": "<body background=\"yellow\">",
+    "answer_2": "<background>yellow</background>",
+    "answer_3": "<body style=\"background-color:yellow\">",
+    "right_answer": "<body style=\"background-color:yellow\">"
+  },
+  {
+    "title": "What does vlink mean ?",
+    "answer_1": "visited link",
+    "answer_2": "vlink",
+    "answer_3": "active link",
+    "right_answer": "visited link"
+  },
+  {
+    "title": "Is width=”100” and width=”100%” the same?",
+    "answer_1": "Yes",
+    "answer_2": "No",
+    "right_answer": "No"
+  },
+  {
+    "title": "Choose the correct HTML tag to make a text bold",
+    "answer_1": "<bold>",
+    "answer_2": "<b>",
+    "right_answer": "<b>"
+  },
+  {
+    "title": "Choose the correct HTML tag to make a text italic",
+    "answer_1": "<i>",
+    "answer_2": "<italic>",
+    "right_answer": "<i>"
+  },
+  {
+    "title": "What is extension of html file  ?",
+    "answer_1": "html",
+    "answer_2": "xml",
+    "answer_3": "xhtml",
+    "right_answer": "html"
+  },
+  {
+    "title": "What is the correct HTML for creating a hyperlink?",
+    "answer_1": "<a name=\"\">A</a>",
+    "answer_2": "<a>B</a>",
+    "answer_3": "<a href=\"http://www.example.com\">example</a>",
+    "answer_4": "<a url=\"http://www.example.com\">example</a>     ",
+    "right_answer": "<a href=\"http://www.example.com\">example</a>"
+  },
+  {
+    "title": "How can we resize the image?",
+    "answer_1": "Using size attribute",
+    "answer_2": "Using height and width",
+    "right_answer": "Using height and width"
+  },
+  {
+    "title": "How can you create an e-mail link?",
+    "answer_1": "<mail href=\"a@b\">",
+    "answer_2": "<mail>a@b</mail>",
+    "answer_3": "<a href=\"a@b\">",
+    "answer_4": "<a href=\"mailto:a@b.com\">",
+    "right_answer": "<a href=\"mailto:a@b.com\">"
+  },
+  {
+    "title": "How can you open a link in a new browser window?",
+    "answer_1": "<a href=\"url\" new>",
+    "answer_2": "<a href=\"url\" target=\"new\">",
+    "answer_3": "<a href=\"url\" target=\"_blank\">",
+    "right_answer": "<a href=\"url\" target=\"_blank\">"
+  },
+  {
+    "title": "Which of these tags are all <table> tags?",
+    "answer_1": "<table><head><tfoot>",
+    "answer_2": "<table><tr><td>",
+    "answer_3": "<table><tr><tt>",
+    "answer_4": "<thead><body><tr>",
+    "right_answer": "<table><tr><td>"
+  },
+  {
+    "title": "Choose the correct HTML to left-align the content inside a tablecell",
+    "answer_1": "<td valign=\"left\">",
+    "answer_2": "<tdleft>",
+    "answer_3": "<td leftalign>",
+    "answer_4": "<td align=\"left\">",
+    "right_answer": "<td align=\"left\">"
+  },
+  {
+    "title": "How can you make a list that lists the items with numbers?",
+    "answer_1": "<ul>",
+    "answer_2": "<list>",
+    "answer_3": "<ol>",
+    "answer_4": "<dl>",
+    "right_answer": "<ol>"
+  },
+  {
+    "title": "How can you make a list that lists the items with bullets?",
+    "answer_1": "<ol>",
+    "answer_2": "<list>",
+    "answer_3": "<ul>",
+    "answer_4": "<dl>",
+    "right_answer": "<ul>"
+  },
+  {
+    "title": "What is the correct HTML for making a checkbox?",
+    "answer_1": "<checkbox>",
+    "answer_2": "<input type=\"checkbox\" />",
+    "answer_3": "<input type=\"check\" />",
+    "answer_4": "<check>",
+    "right_answer": "<input type=\"checkbox\" />"
+  },
+  {
+    "title": "What is the correct HTML for making a text input field?",
+    "answer_1": "<input type=\"textfield\" />",
+    "answer_2": "<textinput type=\"text\" />",
+    "answer_3": "<textfield>",
+    "answer_4": "<input type=\"text\" />",
+    "right_answer": "<input type=\"text\" />"
+  },
+  {
+    "title": "What is the correct HTML for making a drop-down list?",
+    "answer_1": "<input type=\"list\" />",
+    "answer_2": "<select>",
+    "answer_3": "<list>",
+    "answer_4": "<input type=\"dropdown\" />",
+    "right_answer": "<select>"
+  },
+  {
+    "title": "What is the correct HTML for making a text area?",
+    "answer_1": "<input type=\"textarea\" />",
+    "answer_2": "<input type=\"textbox\" />",
+    "answer_3": "<textarea>",
+    "right_answer": "<textarea>"
+  },
+  {
+    "title": "What is the correct HTML for inserting an image?",
+    "answer_1": "<image src=\"image.gif\" alt=\"MyImage\" />",
+    "answer_2": "<img href=\"image.gif\" alt=\"MyImage\" />",
+    "answer_3": "<img src=\"image.gif\" alt=\"MyImage\" />",
+    "answer_4": "<img alt=\"MyImage\">image.gif</img>",
+    "right_answer": "<img src=\"image.gif\" alt=\"MyImage\" />"
+  },
+  {
+    "title": "What is the correct HTML for inserting a background image?",
+    "answer_1": "<img src=\"background.gif\" background />",
+    "answer_2": "<body background=\"background.gif\">",
+    "answer_3": "<background img=\"background.gif\">",
+    "right_answer": "<body background=\"background.gif\">"
+  },
+  {
+    "title": "When you count to 15 using hexadecimal numbers, the highest number is what ?",
+    "answer_1": "F",
+    "answer_2": "B",
+    "answer_3": "15",
+    "right_answer": "F"
+  },
+  {
+    "title": "What is the REFRESH meta tag used for ?",
+    "answer_1": "Refresh your content",
+    "answer_2": "Redirect to a new domain",
+    "answer_3": "rewrite url ",
+    "right_answer": "Redirect to a new domain"
+  },
+  {
+    "title": "colspan=n can be added to only what tag?",
+    "answer_1": "<table>",
+    "answer_2": "<td>",
+    "answer_3": "<tr>",
+    "right_answer": "<td>"
+  },
+  {
+    "title": "What tag adds a paragraph break after the text ?",
+    "answer_1": "<PARAGRAPH>",
+    "answer_2": "<P>",
+    "answer_3": "<BR>",
+    "right_answer": "<P>"
+  },
+  {
+    "title": "All HTML tags are enclosed in what ?",
+    "answer_1": "<>",
+    "answer_2": "<?php and ?>",
+    "answer_3": "# and #",
+    "answer_4": "<!-- and -->",
+    "right_answer": "<>"
   }
 ]
