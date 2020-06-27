@@ -86,23 +86,20 @@ function questionRender(obj) {
   var start = Math.round(Math.random() * (len - 3));
 
   for (var i = (start + 1) % (len - 2);; i = (i + 1) % (len - 2)) {
-    // Create the main div
-    var mainDiv = document.createElement('div'); // Create the input field
+    // Create the label
+    var label = document.createElement('label');
+    label.htmlFor = "answer_".concat(i + 1); // Create the input field
 
     var input = document.createElement('input');
     input.type = 'radio';
     input.id = "answer_".concat(i + 1);
     input.name = 'question';
     input.dataset.answer = "".concat(obj["answer_".concat(i + 1)]);
-    if (i == (start + 1) % (len - 2)) input.checked = true; // Create the label
-
-    var label = document.createElement('label');
-    label.htmlFor = "answer_".concat(i + 1);
-    label.textContent = "".concat(obj["answer_".concat(i + 1)]); // apend the input and the label to the main div
-
-    mainDiv.appendChild(input);
-    mainDiv.appendChild(label);
-    elements.answers.insertAdjacentElement('beforeend', mainDiv);
+    if (i == (start + 1) % (len - 2)) input.checked = true;
+    label.appendChild(input);
+    label.appendChild(document.createTextNode("".concat(obj["answer_".concat(i + 1)])));
+    label.appendChild(document.createElement('span'));
+    elements.answers.insertAdjacentElement('beforeend', label);
     if (i === start) break;
   }
 

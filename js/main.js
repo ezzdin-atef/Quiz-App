@@ -93,8 +93,10 @@ function questionRender(obj) {
   let start = Math.round(Math.random() * (len - 3));
 
   for (let i=(start+1)%(len-2);;i=(i+1)%(len-2)) {
-    // Create the main div
-    let mainDiv = document.createElement('div');
+
+    // Create the label
+    let label = document.createElement('label');
+    label.htmlFor = `answer_${i+1}`;
 
     // Create the input field
     let input = document.createElement('input');
@@ -104,16 +106,13 @@ function questionRender(obj) {
     input.dataset.answer = `${obj[`answer_${i+1}`]}`;
     if (i == (start+1)%(len-2)) input.checked = true;
 
-    // Create the label
-    let label = document.createElement('label');
-    label.htmlFor = `answer_${i+1}`;
-    label.textContent = `${obj[`answer_${i+1}`]}`;
+    label.appendChild(input);
+    label.appendChild(document.createTextNode(`${obj[`answer_${i+1}`]}`));
+    label.appendChild(document.createElement('span'));
 
-    // apend the input and the label to the main div
-    mainDiv.appendChild(input);
-    mainDiv.appendChild(label);
+    
 
-    elements.answers.insertAdjacentElement('beforeend', mainDiv);
+    elements.answers.insertAdjacentElement('beforeend', label);
     
     if (i === start) break;
   }
