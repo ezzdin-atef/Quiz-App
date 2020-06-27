@@ -114,13 +114,6 @@
     "right_answer": "Yes"
   },
   {
-    "title": "How do I add scrolling text to my page?",
-    "answer_1": "<scroll>",
-    "answer_2": "<marquee>",
-    "answer_3": "<ciruler>",
-    "right_answer": "<marquee>"
-  },
-  {
     "title": "What is the preferred way for adding a background color in HTML?",
     "answer_1": "<body background=\"yellow\">",
     "answer_2": "<background>yellow</background>",
