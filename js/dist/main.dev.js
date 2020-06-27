@@ -184,7 +184,5 @@ function printResult() {
   elements.categories.appendChild(btn);
 }
 
-function htmlEntities(str) {
-  return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-}
+console.log('Made with ❤ By Ezzdin Atef');
 //# sourceMappingURL=main.dev.js.map

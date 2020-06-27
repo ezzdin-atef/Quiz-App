@@ -1,18 +1,376 @@
 [
   {
-    "title": "In HTML Can We Use This Way To Add Attributes",
-    "answer_1": "<div class='class-name'>",
-    "answer_2": "<div class=class-name>",
-    "answer_3": "<div class=\"class-name\">",
-    "answer_4": "All Is Right",
-    "right_answer": "All Is Right"
+    "title": "Which of the following is not JavaScript Data Types?",
+    "answer_1": "Undefined",
+    "answer_2": "Number",
+    "answer_3": "Boolean",
+    "answer_4": "Float",
+    "right_answer": "Float"
   },
   {
-    "title": "What Is The Element Thats Not Exists in HTML5 Semantics",
-    "answer_1": "<article>",
-    "answer_2": "<section>",
-    "answer_3": "<blockquote>",
-    "answer_4": "<aside>",
-    "right_answer": "<blockquote>"
+    "title": "Which company developed JavaScript?",
+    "answer_1": "Netscape",
+    "answer_2": "Bell Labs",
+    "answer_3": "Sun Microsystems",
+    "answer_4": "IBM",
+    "right_answer": "Netscape"
+  },
+  {
+    "title": "Inside which HTML element do we put the JavaScript?",
+    "answer_1": "<script>",
+    "answer_2": "<head>",
+    "answer_3": "<meta>",
+    "answer_4": "<style>",
+    "right_answer": "<script>"
+  },
+  {
+    "title": "Which of the following is correct about features of JavaScript?",
+    "answer_1": "It can not Handling dates and time.",
+    "answer_2": "JavaScript is a object-based scripting language.",
+    "answer_3": "JavaScript is not interpreter based scripting language.",
+    "answer_4": "All of the above",
+    "right_answer": "JavaScript is a object-based scripting language."
+  },
+  {
+    "title": "Choose the correct JavaScript syntax to change the content of the following HTML code.",
+    "answer_1": "document.getElement (“letsfindcourse”).innerHTML = ”I am a letsfindcourse”;",
+    "answer_2": "document.getElementById (“letsfindcourse”).innerHTML = ”I am a letsfindcourse”;",
+    "answer_3": "document.getId (“letsfindcourse”) = ”I am a letsfindcourse”;",
+    "answer_4": "document.getElementById (“letsfindcourse”).innerHTML = I am a letsfindcourse;",
+    "right_answer": "document.getElementById (“letsfindcourse”).innerHTML = ”I am a letsfindcourse”;"
+  },
+  {
+    "title": "Which of the following is the correct syntax to display “Letsfindcourse” in an alert box using JavaScript?",
+    "answer_1": "alert-box(“Letsfindcourse”);",
+    "answer_2": "confirm(\"Letsfindcourse\");",
+    "answer_3": "msgbox(“Letsfindcourse”);",
+    "answer_4": "alert(“Letsfindcourse”);",
+    "right_answer": "alert(“Letsfindcourse”);"
+  },
+  {
+    "title": "What is the correct syntax for referring to an external script called “LFC.js”?",
+    "answer_1": "<script src=“LFC.js”>",
+    "answer_2": "<script source=“LFC.js”>",
+    "answer_3": "<script ref=“LFC.js”>",
+    "answer_4": "<script type=“LFC.js”>",
+    "right_answer": "<script src=“LFC.js”>"
+  },
+  {
+    "title": "Why so JavaScript and Java have similar name?",
+    "answer_1": "JavaScript is a stripped-down version of Java",
+    "answer_2": "JavaScript's syntax is loosely based on Java's",
+    "answer_3": "They both originated on the island of Java",
+    "answer_4": "None of the above",
+    "right_answer": "JavaScript's syntax is loosely based on Java's"
+  },
+  {
+    "title": "What is the original name of JavaScript?",
+    "answer_1": "LiveScript",
+    "answer_2": "EScript",
+    "answer_3": "Mocha",
+    "answer_4": "JavaScript",
+    "right_answer": "Mocha"
+  },
+  {
+    "title": "JavaScript is designed for following purpose -",
+    "answer_1": "to style HTML pages",
+    "answer_2": "to execute Queries related to databases on a server",
+    "answer_3": "to add interactivity to html pages",
+    "answer_4": "All of the above",
+    "right_answer": "All of the above"
+  },
+  {
+    "title": "What will be the output of the following Javascript code? var string1 = ”Letsfindcourse”; var intvalue = 30; alert( string1 + intvalue );",
+    "answer_1": "Letsfindcourse 30",
+    "answer_2": "30",
+    "answer_3": "Letsfindcourse30",
+    "answer_4": "Exception",
+    "right_answer": "Letsfindcourse30"
+  },
+  {
+    "title": "Among the following, which one is a ternary operator in JavaScript?",
+    "answer_1": "#",
+    "answer_2": "::",
+    "answer_3": "&:",
+    "answer_4": "?:",
+    "right_answer": "?:"
+  },
+  {
+    "title": "What are the three important manipulations done in a for loop on a loop variable in javascript?",
+    "answer_1": "It uses bitwise checking",
+    "answer_2": "It uses === and !== instead",
+    "answer_3": "It uses equals() and notequals() instead",
+    "answer_4": "It uses equalto()",
+    "right_answer": "It uses === and !== instead"
+  },
+  {
+    "title": "What should appear at the very end of your JavaScript? The <script language=\"javascript\"> tag",
+    "answer_1": "<script>",
+    "answer_2": "</script>",
+    "answer_3": "</script language=\"javascript\">",
+    "answer_4": "All of the above",
+    "right_answer": "</script>"
+  },
+  {
+    "title": "Among the keywords below, which one is not a statement?",
+    "answer_1": "if",
+    "answer_2": "with",
+    "answer_3": "debugger",
+    "answer_4": "use strict",
+    "right_answer": "use strict"
+  },
+  {
+    "title": "How do we define the term Thread?",
+    "answer_1": "Device that controls input",
+    "answer_2": "Variable that controls movement",
+    "answer_3": "Controlled execution of applications",
+    "answer_4": "None of the above",
+    "right_answer": "Controlled execution of applications"
+  },
+  {
+    "title": "Which symbol is used for comments in Javascript?",
+    "answer_1": "\\\\",
+    "answer_2": "//",
+    "answer_3": "\\* *\\",
+    "answer_4": "\\* */",
+    "right_answer": "//"
+  },
+  {
+    "title": "Which of them is not the looping structures in JavaScript?",
+    "answer_1": "for",
+    "answer_2": "while",
+    "answer_3": "forwhich",
+    "answer_4": "dowhile",
+    "right_answer": "while"
+  },
+  {
+    "title": "What is defination of an undefined value in JavaScript?",
+    "answer_1": "Variable used in the code doesn't exist",
+    "answer_2": "Variable is not assigned to any value",
+    "answer_3": "Property doesn't exist",
+    "answer_4": "All of the above",
+    "right_answer": "All of the above"
+  },
+  {
+    "title": "What are the types of Pop up boxes available in JavaScript?",
+    "answer_1": "Alert",
+    "answer_2": "Prompt",
+    "answer_3": "Confirm",
+    "answer_4": "All of the above",
+    "right_answer": "All of the above"
+  },
+  {
+    "title": "what is the disadvantage of using innerHTML in JavaScript?",
+    "answer_1": "Content can not be replaced everywhere",
+    "answer_2": "We can use like \"appending to innerHTML\"",
+    "answer_3": "Even if you use +=like \"innerHTML = innerHTML + 'html'\" still the old content is replaced by html",
+    "answer_4": "The entire innerHTML content is not re-parsed and build into elements, therefore its not slower",
+    "right_answer": "Even if you use +=like \"innerHTML = innerHTML + 'html'\" still the old content is replaced by html"
+  },
+  {
+    "title": "What are the two basic groups of dataypes in JavaScript?",
+    "answer_1": "Primitive",
+    "answer_2": "Reference types.",
+    "answer_3": "All of the above",
+    "answer_4": "None of the above",
+    "right_answer": "All of the above"
+  },
+  {
+    "title": "Which of the following are the errors in JavaScript?",
+    "answer_1": "Load time errors",
+    "answer_2": "Run time errors:",
+    "answer_3": "Logical Errors:",
+    "answer_4": "All of the above",
+    "right_answer": "Run time errors:"
+  },
+  {
+    "title": "Which of the following are the functional components in JavaScript?",
+    "answer_1": "First-class functions",
+    "answer_2": "Encapsulated-class functions",
+    "answer_3": "Fixed-class functions",
+    "answer_4": "All of the above",
+    "right_answer": "First-class functions"
+  },
+  {
+    "title": "Which of the following is not the properties of screen objects in JavaScript?",
+    "answer_1": "AvailHeight",
+    "answer_2": "ColorsDepth",
+    "answer_3": "AvailWidth",
+    "answer_4": "ColorDepth",
+    "right_answer": "ColorsDepth"
+  },
+  {
+    "title": "Javascript string using double quotes is exactly the same as a string using single quotes?",
+    "answer_1": "True",
+    "answer_2": "False",
+    "right_answer": "True"
+  },
+  {
+    "title": "Find output of below code? var a = '20'; var b = a = 30; document.write(a+b);",
+    "answer_1": "Error in Script",
+    "answer_2": "'20'30",
+    "answer_3": "2030",
+    "answer_4": "50",
+    "right_answer": "50"
+  },
+  {
+    "title": " What is divide by 0 in Javascript? var a = 10; var b = 0; document.write(a/b);",
+    "answer_1": "Nothing is printed",
+    "answer_2": "0 is printed",
+    "answer_3": "Infinity is printed",
+    "answer_4": "Some Garbage Value",
+    "right_answer": "Infinity is printed"
+  },
+  {
+    "title": "The URL property belongs to which of the following object?",
+    "answer_1": "Document",
+    "answer_2": "Element",
+    "answer_3": "Location",
+    "answer_4": "Event",
+    "right_answer": "Document"
+  },
+  {
+    "title": "What does the location property represent?",
+    "answer_1": "Current DOM object",
+    "answer_2": "Current URL",
+    "answer_3": "Both DOM object and URL",
+    "answer_4": "Document",
+    "right_answer": "Current URL"
+  },
+  {
+    "title": "Which among the following is not a property of the Location object?",
+    "answer_1": "protocol",
+    "answer_2": "host",
+    "answer_3": "hostee",
+    "answer_4": "hostname",
+    "right_answer": "hostee"
+  },
+  {
+    "title": "What is the return type of the hash property?",
+    "answer_1": "Query string",
+    "answer_2": "Packets",
+    "answer_3": "String",
+    "answer_4": "Fragment identifier",
+    "right_answer": "Fragment identifier"
+  },
+  {
+    "title": "What is the function used to extract arguments from the search property of a URL?",
+    "answer_1": "urlArgs()",
+    "answer_2": "url()",
+    "answer_3": "hash()",
+    "answer_4": "geturl()",
+    "right_answer": "urlArgs()"
+  },
+  {
+    "title": "The decodeURIComponent() is defined by _____________",
+    "answer_1": "Server-side JavaScript",
+    "answer_2": "Client-side JavaScript",
+    "answer_3": "Both Server-side and Client-side JavaScript",
+    "answer_4": "Service side JavaScript",
+    "right_answer": "Client-side JavaScript"
+  },
+  {
+    "title": "Which is the method that removes the current document from the browsing history before loading the new document?",
+    "answer_1": "modify()",
+    "answer_2": "assign()",
+    "answer_3": "replace()",
+    "answer_4": "remove()",
+    "right_answer": "replace()"
+  },
+  {
+    "title": "Why is the replace() method better than the assign() method?",
+    "answer_1": "Reliable",
+    "answer_2": "Highly manageable",
+    "answer_3": "More efficient",
+    "answer_4": "Handles unconditional loading",
+    "right_answer": "Handles unconditional loading"
+  },
+  {
+    "title": "What is the purpose of the assign() method?",
+    "answer_1": "Only loading",
+    "answer_2": "Loading of window and display",
+    "answer_3": "Displays already present window",
+    "answer_4": "Unloading of window",
+    "right_answer": "Loading of window and display"
+  },
+  {
+    "title": "The history property belongs to which object?",
+    "answer_1": "Element",
+    "answer_2": "Window",
+    "answer_3": "History",
+    "answer_4": "Location",
+    "right_answer": "History"
+  },
+  {
+    "title": "What kind of scoping does JavaScript use?",
+    "answer_1": "Literal",
+    "answer_2": "Lexical",
+    "answer_3": "Segmental",
+    "answer_4": "Sequential",
+    "right_answer": "Lexical"
+  },
+  {
+    "title": "What must be done in order to implement Lexical Scoping?",
+    "answer_1": "Get the object",
+    "answer_2": "Dereference the current scope chain",
+    "answer_3": "Reference the current scope chain",
+    "answer_4": "Return the value",
+    "right_answer": "Reference the current scope chain"
+  },
+  {
+    "title": "What is closure?",
+    "answer_1": "Function objects",
+    "answer_2": "Scope where function’s variables are resolved",
+    "answer_3": "Both Function objects and Scope where function’s variables are resolved",
+    "answer_4": "Function return value",
+    "right_answer": "Both Function objects and Scope where function’s variables are resolved"
+  },
+  {
+    "title": "Which of the following is not an example of closures?",
+    "answer_1": "Objects",
+    "answer_2": "Variables",
+    "answer_3": "Functions",
+    "answer_4": "Graphics",
+    "right_answer": "Graphics"
+  },
+  {
+    "title": "Which of the following uses a lot of CPU cycles?",
+    "answer_1": "GUI",
+    "answer_2": "Statically generated graphics",
+    "answer_3": "Dynamically generated graphics",
+    "answer_4": "Generic scoping",
+    "right_answer": "Dynamically generated graphics"
+  },
+  {
+    "title": "What is the fundamental rule of lexical scoping?",
+    "answer_1": "Functions are declared in the scope",
+    "answer_2": "Functions are executed using scope chain",
+    "answer_3": "Functions are declared outside the scope",
+    "answer_4": "Variables are declared within the function",
+    "right_answer": "Functions are executed using scope chain"
+  },
+  {
+    "title": "What is the opposite approach to the lexical scoping?",
+    "answer_1": "Literal scoping",
+    "answer_2": "Static scoping",
+    "answer_3": "Dynamic scoping",
+    "answer_4": "Generic scoping",
+    "right_answer": "Dynamic scoping"
+  },
+  {
+    "title": "What is the purpose of the dynamic scoping?",
+    "answer_1": "Variables can be declared outside the scope",
+    "answer_2": "Variables must be declared outside the scope",
+    "answer_3": "Variables cannot be declared outside the scope",
+    "answer_4": "Variable cannot be declared within the function",
+    "right_answer": "Variables can be declared outside the scope"
+  },
+  {
+    "title": "Which of the algorithmic languages is not lexical scoping standardized in?",
+    "answer_1": "Ada",
+    "answer_2": "Pascal",
+    "answer_3": "Modula2",
+    "answer_4": "Html",
+    "right_answer": "Html"
   }
 ]

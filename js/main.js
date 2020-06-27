@@ -42,6 +42,7 @@ xhr.onreadystatechange = () => {
 
     // get the length
     let len = theResponse.length;
+    
     // Shuffle the object
     for (let i=0;i<len;i++) {
       let j = i + Math.round(Math.random() * (len - i - 1));
@@ -210,7 +211,4 @@ function printResult() {
   elements.categories.appendChild(btn);
 }
 
-
-function htmlEntities(str) {
-  return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-}
+console.log('Made with ❤ By Ezzdin Atef');
